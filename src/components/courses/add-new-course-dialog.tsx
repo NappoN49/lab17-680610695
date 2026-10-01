@@ -442,7 +442,7 @@ export function AddNewCourseDialog() {
                             {...field}
                             id={`instructor-email-${index}`}
                             type="email"
-                            placeholder="ต้องเป็นอีเมล @cmu.ac.th"
+                            placeholder="name@cmu.ac.th"
                             aria-invalid={fieldState.invalid}
                           />
                           {fieldState.invalid && (

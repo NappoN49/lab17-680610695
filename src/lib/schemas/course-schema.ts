@@ -11,7 +11,7 @@ const instructorSchema = z.object({
 	email: z
 		.string()
 		.trim()
-		.regex(/@cmu\.ac\.th$/i, "อีเมลผู้สอนต้องเป็น @cmu.ac.th"),
+		.regex(/@cmu\.ac\.th$/i, "ต้องเป็นอีเมล @cmu.ac.th"),
 });
 
 export const choicesemester = [
